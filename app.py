@@ -18,12 +18,6 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Sidebar Section
-st.sidebar.title("About")
-st.sidebar.caption("""
-        <div class="justified-text">
-            This Legal Document Analyzer helps individuals and businesses analyze legal documents. It provides functionalities like document summarization, key points highlighting, and issue identification.The analyzer leverages advanced AI techniques to extract and summarize key information from legal documents. It's designed to be user-friendly, offering intuitive controls to enhance document analysis and decision-making processes.
-        </div>
-        """, unsafe_allow_html=True)
 
 for _ in range(3):
         st.sidebar.write("") 
@@ -32,9 +26,16 @@ for _ in range(3):
 menu = ["Summarize Document", "Highlight Key Points", "Identify Issues", "Generate Legal Advice"]
 choice = st.sidebar.selectbox("Choose an option", menu)
 
+st.sidebar.subheader("Features")
+st.sidebar.write("Video Summarization") 
+st.sidebar.markdown(
+    '<a href="https://your-video-summarizer-link.com" target="_blank">'
+    '<button style="width:100%;padding:8px 0;background-color:#4CAF50;color:white;border:none;border-radius:4px;">Go to Video Summarizer</button>'
+    '</a>',
+    unsafe_allow_html=True
+)  
 for _ in range(7):
         st.sidebar.write("") 
-        
 st.sidebar.subheader("Build By:")
 st.sidebar.write("[Gourav Chahar](https://gourav-chahar.netlify.app/)")
 st.sidebar.write("contact: [Email](mailto:gouravchahar130405@gamil.com)")
