@@ -29,7 +29,7 @@ choice = st.sidebar.selectbox("Choose an option", menu)
 st.sidebar.subheader("Features")
 st.sidebar.write("Video Summarization") 
 st.sidebar.markdown(
-    '<a href="https://your-video-summarizer-link.com" target="_blank">'
+    '<a href="https://video-insights.netlify.app/" target="_blank">'
     '<button style="width:100%;padding:8px 0;background-color:#4CAF50;color:white;border:none;border-radius:4px;">Go to Video Summarizer</button>'
     '</a>',
     unsafe_allow_html=True
