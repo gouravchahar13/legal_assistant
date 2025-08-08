@@ -10,13 +10,6 @@ Legal Doc Analyzer is a web application that uses AI to analyze legal documents 
 - Generate responses based on user prompts.
 - User-friendly interface for interaction.
 
-## Demo
-
-Try this app: [Link](https://huggingface.co/spaces/Mr-Vicky-01/Legal-Doc-Analyzer)
-
-![image](https://github.com/Mr-Vicky-01/Legal-Doc-Analyzer/assets/143078285/ab6d6be4-8146-4203-ab50-656078d30b2c)
-
-
 ## Getting Started
 
 ### Prerequisites
