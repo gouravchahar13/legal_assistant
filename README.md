@@ -69,12 +69,6 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contact
-
-For any questions or feedback, feel free to reach out:
-
-- **Email**: pachaiappan1102@gmail.com
-
 ## Acknowledgments
 
 - Gemini API for their powerful content generation model.
